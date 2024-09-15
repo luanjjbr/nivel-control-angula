@@ -1,0 +1,16 @@
+  /* Estilos do conteúdo principal */
+  .main-content {
+    margin-left: 250px;
+    padding: 20px;
+    transition: margin-left 0.5s;
+  }
+  
+  .content-closed {
+    margin-left: 150px;
+    background-color: #ffffff; /* Cor de fundo quando o menu está fechado */
+  }
+  
+  .content-open {
+    margin-left: 250px;
+    background-color: #f0f0f0; /* Cor de fundo quando o menu está fechado */
+  }

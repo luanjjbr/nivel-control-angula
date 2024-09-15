@@ -1,0 +1,9 @@
+<!-- Menu lateral que altera a classe dinamicamente -->
+<div [className]="isMenuOpen() ? 'sidenav' : 'insidenav'">
+  <!-- Botão para abrir/fechar o menu -->
+  <button (click)="toggleMenu()" class="menu-button">☰</button>
+  <a href="#">Home</a>
+  <a href="#">Sobre</a>
+  <a href="#">Serviços</a>
+  <a href="#">Contato</a>
+</div>

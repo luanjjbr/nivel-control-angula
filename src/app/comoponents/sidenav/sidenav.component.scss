@@ -1,0 +1,54 @@
+/* Estilos do menu lateral */
+
+.sidenav {
+    height: 100%;
+    width: 250px;
+    position: fixed;
+    top: 0;
+    left: 0;
+    background-color: #111;
+    overflow-x: hidden;
+    transition: 0.5s;
+    padding-top: 20px;
+    
+  }
+  
+  .insidenav {
+    width: 0;
+    transition: 0s;
+    font-size: 0%;
+    color: white;
+  }
+  .insidenav button{
+    position: fixed; /* Faz o elemento ficar fixo na tela */
+    top: 10px;       /* Distância do topo da janela */
+    left: 10px;      /* Distância da borda esquerda da janela */
+    width: 50px;    /* Largura do elemento */
+    height: 50px;   /* Altura do elemento */
+    text-align: center; /* Alinhamento do texto */
+    padding: 10px;  /* Espaçamento interno */
+  }
+  
+  .sidenav a {
+    padding: 8px 16px;
+    text-decoration: none;
+    font-size: 18px;
+    color: white;
+    display: block;
+  }
+  
+  .sidenav a:hover {
+    background-color: #575757;
+  }
+  
+  /* Botão do menu */
+  .menu-button {
+    font-size: 20px;
+    cursor: pointer;
+    background-color: #111;
+    color: white;
+    border: none;
+    padding: 10px;
+    margin: 10px;
+  }
+  
